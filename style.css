@@ -1,0 +1,101 @@
+/* ====== Global Reset ====== */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+  color: #1f2937;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+/* ====== Profile ====== */
+#user-img {
+  border: 2px solid #4f46e5;
+}
+
+#user-name {
+  font-size: 0.85rem;
+}
+
+/* ====== Welcome Section ====== */
+#welcome-msg {
+  font-size: 1.6rem;
+}
+
+/* ====== Posts ====== */
+.post-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.post-card img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.post-card .card-body {
+  padding: 1.2rem;
+}
+
+/* ====== Buttons ====== */
+.btn-primary {
+  background-color: #4f46e5;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4338ca;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+}
+
+/* ====== Modal ====== */
+.modal-content {
+  border-radius: 18px;
+}
+
+.modal-title {
+  font-size: 1.2rem;
+}
+
+/* ====== Forms ====== */
+.form-control {
+  border-radius: 12px;
+  padding: 0.65rem 0.9rem;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+  border-color: #4f46e5;
+}
+
+/* ====== Loader ====== */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* ====== Mobile Menu ====== */
+.custom-mobile-menu {
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+}
